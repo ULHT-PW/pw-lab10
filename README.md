@@ -13,7 +13,7 @@
 * leia uma vez o enunciado. Este detalha todos os passos e fornece o código necessário, sendo rápida a sua realização.
 * se tiver dúvidas, consulte os slides das aulas [[1](https://moodle.ensinolusofona.pt/draftfile.php/74319/user/draft/994903460/pw-04-django-01-23.pptx?time=1684058176856) [2](https://moodle.ensinolusofona.pt/draftfile.php/74319/user/draft/994903460/pw-04-django-02.pptx)] vídeos [[1](https://educast.fccn.pt/vod/clips/13ii54fteb/html5.html?locale=en), [2](https://educast.fccn.pt/vod/clips/1m7vvfknq2/streaming.html?locale=en)] e a documentação do [djangoproject](https://www.djangoproject.com/)
 * se tiver dúvidas, consulte os slides das aulas e a documentação do [djangoproject](https://www.djangoproject.com/)
-* familiarize-se e use o [glossario](https://moodle.ensinolusofona.pt/pluginfile.php/353336/mod_resource/content/1/PW_glossario.pdf) que terão disponivel no exame.
+* familiarize-se e use o [glossario](https://moodle.ensinolusofona.pt/pluginfile.php/549224/mod_resource/content/4/PW_glossario_2023.pdf) que terão disponivel no exame.
 
 
 ## 0. Primeiros passos 👶
