@@ -17,7 +17,7 @@
 
 
 ## 0. Primeiros passos 👶
-Trabalhe a partir do seu projeto criado no Lab 8. 
+Trabalhe a partir do seu projeto criado no Lab 9, que está em  
 1. se o tiver no computador onde odesenvolveu, basta ativar o ambiente virtual com "pipenv shell".
 2. Se estiver a trabalhar no projeto noutro computador, deve 
    * instalar os modulos necessarios, com o compando `pipenv install`
@@ -66,7 +66,7 @@ def quizz(request):
 
 ## 4. Portfolio no Heroku ☁
 * Crie um repositório GitHub para o seu projeto
-* [Siga os passos](https://github.com/ULHT-PW-2020-21/pw-deployment) para fazer a correta implantação da aplicação em ambiente de produção no Heroku.
+* Sincronize com o PythonAnywhere para ter a aplicação a correr.
 
 
 ## 5. Diagrama Entidade Relação 🛢
