@@ -17,11 +17,11 @@
 * familiarize-se e use o [glossario](https://moodle.ensinolusofona.pt/pluginfile.php/549224/mod_resource/content/4/PW_glossario_2023.pdf) que terão disponivel no exame.
 
 
-## 0. Primeiros passos 👶
+# 0. Primeiros passos 👶
 Trabalhe a partir do seu projeto criado no Lab 9
 
 
-## 1. Blog
+# 1. Blog
 * Implemente um blog, que permite realizar posts. 
 * Siga os passos da aplicação [Tarefas](https://github.com/ULHT-PW/pw-aula-django-02/) desenvolvida na aula. No README estão descritos todos os passos seguidos assim como um video da implementação! (incluindo a estilização CSS e dos formulários que não cheguei a fazer na aula por falta de tempo).
 * Cada Post terá como atributos autor, data, título, descrição, e opcionalmente um link (para projeto ou página do seu portfolio) e uma imagem. Veja os [passos extra](https://github.com/ULHT-PW/pw-usando-ImageField) para usar o campo ImageField 
@@ -30,9 +30,9 @@ Trabalhe a partir do seu projeto criado no Lab 9
 * Renderize cada post como um "postal", elemento separado, como em Tarefas.
 * Explore labels, widgets e help-texts (veja exemplos [aqui](https://github.com/ULHT-PW/pw-aula-django-02/#formul%C3%A1rio)).
 
-#### Utilizando os campos ImageField e FileField num modelo 
+### 1.1 Utilizando os campos ImageField e FileField num modelo 
 
-Para adicionar um campo de imagem/ficheiro a uma classe, e manusear inserir imagens e ficheiros na base de dados através de formulários, deverá fazer os seguintes passos extra:
+Para adicionar um campo de imagem/ficheiro ao seu modelo (classe do models), e manusear inserir imagens e ficheiros na base de dados através de formulários, deverá fazer os seguintes passos extra:
 
 1. Criar, na root, a pasta `media/tarefas` para guardar os ficheiros carregados. Na pasta media deve colocar uma pasta com o nome da aplicação (no exemplo em baixo, aplicação tarefa).
 
@@ -86,18 +86,17 @@ form = TarefaForm(request.POST or None, request.FILES)
 
 
 
-## 2. Aprimore a sua aplicação ✨
+# 2. Aprimore a sua aplicação ✨
 4. Este será o seu portfolio, carta de apresentação sua na internet muito valorizada no mundo do trabalho! Por isso, esmere-se, e abrir-lhe-á oportunidades de emprego muitas na medida do que se aplicar neste projeto. 
 * Releia o enunciado do Lab. 8 com atenção e garanta que implementou tudo, e tem tudo a funcionar devidamente
 * Esmere-se no layout, garantindo que tem um aspecto profissional e aplica tecnicas modernas de CSS.
 * Várias páginas irão apresentar um conjunto de items (cadeiras, projetos, TFCs), com um titulo, imagem, texto e mais alguns atributos. Desenhe o layout destes items independentes / tipo postais, como feito no laboratório anterior lab.5. Crie elementos para cada página, com conteúdos inventados para já. 
 
-## 3. Portfolio no PythonAnywhere ☁
+# 3. Portfolio no PythonAnywhere ☁
 * Crie um repositório GitHub para o seu projeto
 * Sincronize com o PythonAnywhere para ter a aplicação a correr.
 
-
-## 4. Diagrama Entidade Relação 🛢
+# 4. Diagrama Entidade Relação 🛢
 
 * Analise a estrutura descrita na secção 5 e 6, e identifique os dados e atributos associados. Desenhe o Diagrama Entidade Relação para guardar numa base de dados toda a informação descrita. Use uma ferramenta a seu gosto (por exemplo [draw.io](draw.io)). 
 * Neste laboratório concentrar-se-á na modelação e só no Lab. 11 irá implementar a base de dados. Deverá identificar todas as classes, atributos e relações (1:1, 1:N e N:N).
@@ -105,7 +104,7 @@ form = TarefaForm(request.POST or None, request.FILES)
 * Este DER deverá ser apresentado numa página que apresenta tecnicamente a aplicação.
 
 
-## 5. Estrutura 🦴🦴🦴 
+# 5. Estrutura 🦴🦴🦴 
 
 Eis a estrutura para a qual estamos a convergir (ainda poderá sofrer alguns ajustes)
 
@@ -145,7 +144,7 @@ Estrutura da aplicação:
 * Contacto
 * Rodapé
 
-## 6. Recolha de Conteúdos 📚
+# 6. Recolha de Conteúdos 📚
 
 * Durante esta semana deverá recolher **todo o material em baixo**. Organize-o e guarde-o num repositório GitHub. No Lab 11, após construir a base de dados, irá inserir os conteúdos.
 
