@@ -22,11 +22,12 @@ Trabalhe a partir do seu projeto criado no Lab 9
 
 
 # 1. Blog
-* Implemente um blog, que permite realizar posts. 
+
+* Implemente um blog, onde pode criar, editar e visualizar posts. 
 * Siga os passos da aplicação [Tarefas](https://github.com/ULHT-PW/pw-aula-django-02/) desenvolvida na aula. No README estão descritos todos os passos seguidos assim como um video da implementação! (incluindo a estilização CSS e dos formulários que não cheguei a fazer na aula por falta de tempo).
-* Cada Post terá como atributos autor, data, título, descrição, e opcionalmente um link (para projeto ou página do seu portfolio) e uma imagem. Veja os [passos extra](https://github.com/ULHT-PW/pw-usando-ImageField) para usar o campo ImageField 
+* Crie a classe Post. Cada Post terá como atributos autor, data, título, descrição, e opcionalmente um link (para projeto ou página do seu portfolio) e uma imagem. Veja os [passos extra](https://github.com/ULHT-PW/pw-usando-ImageField) (transpostos em baixo) para usar o campo ImageField ou FileField.
 * Use uma única página que lista os posts e no final apresenta o formulário para escrever um novo post. 
-* adicione funcionalidades para criar, editar e apagar.
+* adicione funcionalidades para criar, editar e apagar. (na próxima aula e lab aprenderá a criar um login, podendo por exemplo restringir o apagar e editar apenas a quem esteja autenticado).  
 * Renderize cada post como um "postal", elemento separado, como em Tarefas.
 * Explore labels, widgets e help-texts (veja exemplos [aqui](https://github.com/ULHT-PW/pw-aula-django-02/#formul%C3%A1rio)).
 
