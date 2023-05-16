@@ -5,8 +5,9 @@
 ### Objetivo 
 
 * Finalizar os requisitos do Lab. 9.
-* Recolher todos os conteúdos necessários, organizados numa pasta e em ficheiros de texto, tal como indicado no Lab. 9.
-* desenhar o diagrama entidade relação da base de dados a construir no Lab. 10
+* Criar um blog.
+* Explorar a estrutura do projeto e desenhar o respectivo diagrama entidade relação da base de dados a construir no Lab. 11
+* Recolher todos os conteúdos necessários, organizados numa pasta e em ficheiros de texto.
 
 
 ### Recomendações
