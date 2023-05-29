@@ -105,7 +105,7 @@ Estrutura da aplicação:
       * cursos superior
       * escolas no secundário
       * certificados
-   * licenciatura, pagina que apresenta a lista de cadeiras do curso, organizada por semestre e anos. Quando clicada uma cadeira, aparece informação relativamente a: nome, ano, semestre, ECTS, ano letivo frequentado, topicos abordados, ranking de 1 a 5 estrelas (indicando se gostou ou não), professores (da classe Pessoa com campos nome e link para a sua pagina da lusofona e no linkedin), link para página da cadeira (se existir), lista de projetos realizados (classe projeto)
+   * licenciatura, pagina que apresenta a lista de cadeiras do curso, organizada por semestre e anos. Quando clicada uma cadeira, aparece informação relativamente a: nome, ano, semestre, ECTS, ano letivo frequentado, topicos abordados, professores (da classe Pessoa com campos nome e, eventualmente o link para a pagina do docente no site da lusofona e no linkedin), lista de projetos realizados (classe projeto)
    * Aptidões e competências pessoais (com atributos titulo, descrição curta, lista de projetos (Projeto) realizados onde foi aplicada essa competência caso se aplique, lista de disciplinas (Disciplina) onde foi trabalhada essa competência caso se aplique)
        * [Tecnicas]( https://www.e-konomista.pt/competencias-tecnicas/): linguagens de programação ou tecnologias, relatórios word, apresentações powerpoint, realização de videos, protótipos
        * [Organizativas]( https://www.e-konomista.pt/competencias-de-organizacao/)
@@ -118,8 +118,8 @@ Estrutura da aplicação:
     * voluntariado
 
 * **Projetos**
-   * realizados por mim: lista de projetos realizados, com atributos: titulo, descrição até 500 carateres, imagem, ano de realização, cadeira (classe Cadeira, caso tenha sido projeto associado a uma cadeira), participantes (da classe Pessoa, da classe Pessoa com atributos nome e link para a sua pagina no linkedin, e link para a aplicação portfolio do projeto PW), link para repositorio GitHub, link para video no youtube, tecnologias usadas, competencias (classe Competencia)
-   * trabalhos de fim de curso: escolha 6 [Trabalhos finais de Curso (TFCs) de anos passados](https://informatica.ulusofona.pt/defesas/trabalhos-finais-de-curso/) realizados por colegas seus que achou interessantes, onde TFC tem atributos: titulo, autor (multiplos), orientador (multiplos), ano de realização, sumário, resumo até 500 carateres, link para relatório, links para repositório github e vídeo no Youtube, se existentes. Será facultada uma pasta com relatórios de TFC dos últimos anos para consultar e escolher.
+   * **realizados por mim**: lista de projetos realizados, com atributos: titulo, descrição até 500 carateres, imagem, ano de realização, cadeira (classe Cadeira, caso tenha sido projeto associado a uma cadeira), participantes (da classe Pessoa, da classe Pessoa com atributos nome e link para a sua pagina no linkedin, e link para a aplicação portfolio do projeto PW), link para repositorio GitHub, link para video no youtube, tecnologias usadas, competencias (classe Competencia)
+   * **trabalhos de fim de curso**: escolha 6 [Trabalhos finais de Curso (TFCs) de anos passados feitos por colegas seus (consulte aqui)](https://informatica.ulusofona.pt/defesas/trabalhos-finais-de-curso/) realizados por colegas seus que achou interessantes, onde TFC tem atributos: titulo, autor (multiplos), orientador (multiplos), ano de realização, imagem, resumo (do relatório) até 500 carateres, link para o relatório, repositório github e vídeo no Youtube, se existentes.
 
 * **Programação Web**
    * Tecnologias: Falar das seguintes Tecnologias, com os atributos: nome (por extenso), acrónimo (caso exista, e.g., CSS para Cascade Style Sheet), ano de criação, criador, logotipo, link para site oficial, descrição das principais características:
