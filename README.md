@@ -90,7 +90,8 @@ Estrutura da aplicação:
 
 # 6. Recolha de Conteúdos 📚
 
-* Durante esta semana deverá recolher **todo o material em baixo**. Organize-o e guarde-o num repositório GitHub. No Lab 11, após construir a base de dados, irá inserir os conteúdos.
+* Durante esta semana deverá recolher **todo o material em baixo**. Organize-o e guarde-o num repositório GitHub. 
+* No Lab 12, irá construir a base de dados que permitirá armazenar os conteúdos em baixo.
 
 * **Hero Page**
   * Redija um texto de apresentação que irá colocar na pagina de entrada, HeroPage, no segundo elemento (onde o texto aparece quando fazemos scroll da Hero Page como neste [exemplo](https://codepen.io/LucioStuder/pen/vYpqwra)). Este texto poderá falar de:
