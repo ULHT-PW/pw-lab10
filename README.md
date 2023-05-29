@@ -51,8 +51,6 @@ Trabalhe a partir do seu projeto criado no Lab 9
 
 # 5. Estrutura 🦴🦴🦴 
 
-Eis a estrutura para a qual estamos a convergir (ainda poderá sofrer alguns ajustes)
-
 Estrutura da aplicação:
 * Home (Hero page)
 * Sobre mim
@@ -60,8 +58,9 @@ Estrutura da aplicação:
       * cadeiras 
    * Educação
       * escolas 
-   * Certificados
-   * Outras habilitações
+   * Certificados (se existir)
+   * Outras habilitações (se existir)
+   * Experiência profissional (se existir)
    * Aptidões e competências pessoais
       * técnicas
       * organizativas
@@ -69,7 +68,7 @@ Estrutura da aplicação:
       * linguisticas
    * Interesses e hobbies
 * projetos 
-   * realizados por mim
+   * Projetos realizados por mim
    * Trabalhos Finais de Curso interessantes   
 * Web   
    * tecnologias existentes
@@ -122,7 +121,7 @@ Estrutura da aplicação:
    * **trabalhos de fim de curso**: escolha 6 [Trabalhos finais de Curso (TFCs) de anos passados feitos por colegas seus (consulte aqui)](https://informatica.ulusofona.pt/defesas/trabalhos-finais-de-curso/) realizados por colegas seus que achou interessantes, onde TFC tem atributos: titulo, autor (multiplos), orientador (multiplos), ano de realização, imagem, resumo (do relatório) até 500 carateres, link para o relatório, repositório github e vídeo no Youtube, se existentes.
 
 * **Programação Web**
-   * Tecnologias: Falar das seguintes Tecnologias, com os atributos: nome (por extenso), acrónimo (caso exista, e.g., CSS para Cascade Style Sheet), ano de criação, criador, logotipo, link para site oficial, descrição das principais características:
+   * Tecnologias: Falar das seguintes Tecnologias, com os atributos: nome (por extenso), ano de criação, criador, logotipo, link para site oficial, linguagens usadas, e descrição/caracterização. Eis as tecnologias a referir:
       * Back-end: Laravel, ASP.NET, Spring MVC, Express, Django
       * Front-end: Angular, React, Vue, Svelte
       * Outras: WordPress, OutSystems, Weebly, Wix
@@ -130,7 +129,7 @@ Estrutura da aplicação:
    * Notícias: listagem de 10 noticias sobre artigos do medium.com que tenha gostado, com campos: título, 3 linhas de texto, imagem e link
    * exemplos de técnicas e efeitos que gosta, sites que gosta e de sites que acha maus, tendencias modernas de programação Web, aspectos obsoletos
 
-* **Blog**. Post tem atributos autor, data, título e descrição e eventualmente um link (para projeto, página do seu portfolio) e foto. deverá ter pelo menos 5 posts de outros colegas seus a comentar que gostaram de fazer um determinado projeto consigo, ou de certo trabalho que você fez, ou que é um bom colega para estudar. Uma forma de apresentar as suas aptidões através dos outros.
+* **Blog**. ver [Lab11](https://github.com/ULHT-PW/pw-lab11).
 
 * **Sobre este website**, informação sobre este website, incluindo
    * Estrutura do website: com mapa do site, uma estrutura em árvore dos menus e submenus da aplicação.
