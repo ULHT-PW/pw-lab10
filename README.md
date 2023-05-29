@@ -41,15 +41,7 @@ Trabalhe a partir do seu projeto criado no Lab 9
 * Crie um repositório GitHub para o seu projeto
 * Sincronize com o PythonAnywhere para ter a aplicação a correr.
 
-# 4. Diagrama Entidade Relação 🛢
-
-* Analise a estrutura descrita na secção 5 e 6, e identifique os dados e atributos associados. Desenhe o Diagrama Entidade Relação para guardar numa base de dados toda a informação descrita. Use uma ferramenta a seu gosto (por exemplo [draw.io](draw.io)). 
-* Neste laboratório concentrar-se-á na modelação e só no Lab. 11 irá implementar a base de dados. Deverá identificar todas as classes, atributos e relações (1:1, 1:N e N:N).
-* Para construir o DER leia com atenção os requisitos da secção 6 onde se detalham muitas das tabelas e atributos que irá ter, assim como relações.
-* Este DER deverá ser apresentado numa página que apresenta tecnicamente a aplicação.
-
-
-# 5. Estrutura 🦴🦴🦴 
+# 4. Estrutura 🦴🦴🦴 
 
 Estrutura da aplicação:
 * Home (Hero page)
@@ -87,6 +79,13 @@ Estrutura da aplicação:
 * Blog
 * Contacto
 * Rodapé
+
+# 5. Diagrama Entidade Relação 🛢
+
+* Analise a estrutura da secção 4 e sua estruturação na secção 6, e identifique os dados e atributos associados. Desenhe o Diagrama Entidade Relação para guardar numa base de dados toda a informação descrita. Use uma ferramenta a seu gosto (por exemplo [draw.io](draw.io)). 
+* Neste laboratório concentrar-se-á na modelação e só no Lab. 12 irá implementar a base de dados. Deverá identificar todas as classes, atributos e relações (1:1, 1:N e N:N).
+* Para construir o DER leia com atenção os requisitos da secção 6 onde se detalham muitas das tabelas e atributos que irá ter, assim como relações.
+* Este DER deverá ser apresentado numa página que apresenta tecnicamente a aplicação.
 
 # 6. Recolha de Conteúdos 📚
 
